@@ -167,7 +167,8 @@ Badal Kumar Rai
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE.md file for details  
+This project is licensed under the MIT License - see the LICENSE.md file for details    
+> **Note**: This content is proprietary and confidential. Unauthorized copying, modification, distribution, or use of this content is strictly prohibited without explicit permission from the owner.
 
 
 ##### Copyright (c) 2024 badalrai21
