@@ -123,40 +123,41 @@ If you encounter any issues or have questions about this project, there are seve
 
 ### Documentation
 Solidity Documentation: Comprehensive documentation for the Solidity programming language, including syntax and features. Visit Solidity Documentation.
-Remix Documentation: Learn how to use Remix, the online Solidity IDE, with detailed guides and examples. Visit Remix Documentation.
-Common Issues
-#### 1. Insufficient Gas:
+Remix Documentation: Learn how to use Remix, the online Solidity IDE, with detailed guides and examples. Visit Remix Documentation.  
+##### Common Issues
+##### 1. Insufficient Gas:
 
-Ensure you have enough Ether in your account to cover the transaction gas fees.
-Try increasing the gas limit for your transaction.
-#### 2. Compiler Errors:
+➝ Ensure you have enough Ether in your account to cover the transaction gas fees.  
+➝ Try increasing the gas limit for your transaction.  
+##### 2. Compiler Errors:
 
-Verify that you are using a compatible Solidity compiler version (e.g., 0.8.18).
-Double-check your contract code for syntax errors.
-#### 3. Deployment Issues:
+➝ Verify that you are using a compatible Solidity compiler version (e.g., 0.8.26).  
+➝ Double-check your contract code for syntax errors.  
+##### 3. Deployment Issues:
 
-Make sure you are connected to the correct Ethereum network (e.g., Mainnet, Ropsten, Rinkeby).
-Ensure your Ethereum wallet is unlocked and has sufficient funds.
+➝ Make sure you are connected to the correct Ethereum network (e.g., Mainnet, Ropsten, Rinkeby).  
+➝ Ensure your Ethereum wallet is unlocked and has sufficient funds.  
 
 ### FAQs
-Q: How do I add a new room?
+Q: How do I add a new room?  
 A: Use the addRoom function with the required parameters: _id, _name, and _price. Ensure the _price is greater than zero.
 
-Q: How do I update a room?
+Q: How do I update a room?  
 A: Use the updateRoom function with the room's _id, new _name, new _price, and _isAvailable status. Ensure the room exists before updating.
 
-Q: How do I check the total number of rooms?
+Q: How do I check the total number of rooms?  
 A: Use the totalRooms function to get the current count of rooms.
 
 ### Contact
 If you need further assistance, feel free to reach out:
 
-Email: badalrai242@gmail.com
-GitHub Issues: Report issues or suggest enhancements on our GitHub Issues page.
-Community
-Join the community to discuss the project and get help from other user:
+Email: badalrai242@gmail.com  
+GitHub Issues: Report issues or suggest enhancements on our GitHub Issues page.  
 
-Discord: Join our Discord Server [@NO2](https://discord.gg/Dnw4ZjEg)
+#### Community  
+Join the community to discuss the project and get help from other user:
+LinekdIn: [@BadalRai](https://www.linkedin.com/in/badal-kumar-rai-a0151b259/)  
+Discord: Join our Discord Server [@NO2](https://discord.gg/Dnw4ZjEg)    
 We hope this information helps you get the most out of our Hotel Management Smart Contract project. If you have any feedback or suggestions, please let us know!
 
 ## Authors
@@ -167,4 +168,10 @@ Badal Kumar Rai
 ## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details
+Copyright (c) 2024 badalrai21
 
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
