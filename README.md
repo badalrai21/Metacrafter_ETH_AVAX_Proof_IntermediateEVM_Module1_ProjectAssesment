@@ -1,6 +1,6 @@
 # Metacrafter_ETH_AVAX_Proof_IntermediateEVM_Module1_ProjectAssesment
 
-This Solidity program is a simple demonstration of error handling. The purpose of the program is to manage hotel room information while demonstrating the use of require(), assert(), and revert() for error handling.
+This Solidity program is a simple demonstration of error handling. The purpose of the program is to manage hotel room information while demonstrating the use of ```require()```, ```assert()```, and ```revert()``` for error handling.
 
 ## Description
 This contract is written in the Solidity language, used for developing smart contracts on the Ethereum blockchain. The contract allows the owner to add and update hotel room information. The error handling mechanisms ensure that only valid operations are performed.
@@ -83,3 +83,37 @@ contract Hotel {
 }
 
 ```
+
+### Compiling the Code
+Open the "Solidity Compiler" tab in the left-hand sidebar.
+Ensure the "Compiler" option is set to "0.8.18" (or another compatible version).
+Click the "Compile Hotel.sol" button.
+
+### Deploying the Contract
+Open the "Deploy & Run Transactions" tab in the left-hand sidebar.
+Select the "Hotel" contract from the dropdown menu.
+Click the "Deploy" button.
+
+### Interacting with the Contract
+#### 1. Add a Room:
+
+➝ Expand the addRoom function in the deployed contract section.
+➝ Enter the parameters: _id, _name, _price.
+➝ Click transact to add the room.
+
+#### 2. Update a Room:
+
+➝ Expand the updateRoom function in the deployed contract section.
+➝ Enter the parameters: _id, _name, _price, _isAvailable.
+➝ Click transact to update the room.
+
+#### 3. View a Room:
+
+➝ Expand the getRoom function in the deployed contract section.
+➝ Enter the _id of the room you want to view.
+➝ Click call to view the room details.
+
+#### 4. Get Total Rooms:
+
+➝ Expand the totalRooms function in the deployed contract section.
+➝ Click call to view the total number of rooms.
